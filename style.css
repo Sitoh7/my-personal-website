@@ -1,6 +1,7 @@
 
 body{
-    background-color: darkblue;
+    background: linear-gradient(to bottom, blue, purple, red);
+    color: white;
     
 }
 
@@ -10,6 +11,10 @@ nav{
   list-style: none;
   padding: 0;
   margin: 0 20px;
+}
+
+nav a {
+    color: white;
 }
 
 .content1{
@@ -39,3 +44,20 @@ nav{
     position: relative;
     border-radius: 40px;
 }
+
+.aboutMe{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+ 
+ 
+}
+
+.disney1{
+    width: 200px;
+    border-radius: 40px;
+}
+
+div { float: left;
+    text-align: center;
+    width: 33%;}
