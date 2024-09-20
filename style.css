@@ -1,0 +1,41 @@
+
+body{
+    background-color: darkblue;
+    
+}
+
+nav{
+    display: flex;
+  justify-content: space-evenly;  /* Spreads items evenly */
+  list-style: none;
+  padding: 0;
+  margin: 0 20px;
+}
+
+.content1{
+    position: relative;
+          display: flex;
+          justify-content: space-around;
+          
+}
+
+.h1{
+    max-width: 100%;
+}
+
+.stock1{
+    border-radius: 50px;
+
+}
+
+.h2{
+    float: right;
+
+}
+
+.graduation{
+    height: 500px;
+    top: 50px;
+    position: relative;
+    border-radius: 40px;
+}
