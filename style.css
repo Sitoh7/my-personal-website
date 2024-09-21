@@ -1,6 +1,6 @@
 
 body{
-    background: linear-gradient(to bottom, blue, purple, red);
+    background: linear-gradient(to bottom,  rgb(36, 35, 35), rgb(10, 10, 70), rgb(3, 3, 150));
     color: white;
     font-family:Arial, Helvetica, sans-serif
     
@@ -8,14 +8,14 @@ body{
 
 nav{
     display: flex;
-  justify-content: space-evenly;  /* Spreads items evenly */
+  justify-content: space-evenly;  
   list-style: none;
   padding: 0;
   margin: 0 20px;
   font-weight: bold;
 }
 
-nav a {
+ a {
     color: white;
     text-decoration: none;
     font-size: 1.3em;
@@ -53,6 +53,9 @@ nav a {
     text-align: center;
     width: 500px;
     margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(31, 29, 29)
  
  
 }
@@ -62,20 +65,51 @@ nav a {
     border-radius: 40px;
 }
 
-.skills div { float: left;
+.fix2{
     text-align: center;
-    width: 33%;}
+}
 
-.projects{
+.skills div { float: left;
+                text-align: center;
+                width: 33%;
+                background-color: rgb(31, 29, 29);
+                border: solid white 2px;
+                border-radius: 20px;}
+
+
+.ph{
     text-align: center;
-    
 }
 
 .projects div{
-    margin-bottom: 20px;
+    float: left;
+    text-align: center;
+    width: 32%;
+    margin: auto;
+    background-color: rgb(31, 29, 29);
+    border: 2px solid white;
+    border-radius: 20px;
+    
 }
 
+.projects h3{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.fix{
+    position: relative;
+    top: 2px;
+}
 .contactme{
+    text-align: center;
+
+  
+}
+
+.contactme div{
+    margin: auto;
     text-align: center;
 }
 
@@ -89,3 +123,4 @@ nav a {
 .gmail{
     width: 70px;
 }
+
