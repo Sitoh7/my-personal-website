@@ -9,13 +9,15 @@
 </head>
 <body>
     <nav>
-        <a href="content" target="_self">Home</a>
-        <a href=".aboutMe">About Me</a>
-        <a href=".skills">Skills</a>
-        <a href=".projects">Projects</a>
-        <a href=".contcactme">Contact Me</a>
+        <ul>
+        <li><a href="#content" id="arrow">⇑</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+        </ul>
     </nav>
-    <section class="content1">
+    <section id="content">
         <article class="h1">
     <h1>Hi, i'm Harry Wakhule and i am a 
         software engineer<br> and a student at Moringa school
@@ -30,7 +32,7 @@
    
     </section>
 
-    <section class="aboutMe">
+    <section id="aboutMe">
 
         <h1>About Me</h1>
 
@@ -41,7 +43,7 @@
         
     </section>
     <h1 class="fix2">Skills</h1>
-    <section class="skills">
+    <section id="skills">
         <div>
         <h2>Html</h2>
         <p> i have learned html which has taguht be the basics and barebonds of any website and how they are structured from top to bottom you acquire a variety of fundamental skills that form the backbone of web development.
@@ -70,7 +72,7 @@
                 <p><b>Here are the projects I have successfully completed to date in my journey as a software engineer<br> in which i have combined my
                     knowledge of html,css and JavaScript:<b></p>
                 </div>
-                    <section class="projects">   
+                    <section id="projects">   
                         <div>
                         <h2>Simple calculator</h2> 
                         <p>"I've developed a user-friendly calculator application that allows you to effortlessly perform essential mathematical operations on any two numbers. Whether you need to add, subtract, multiply, or divide, this tool has got you covered. The functionality is powered by JavaScript, enabling real-time calculations, while the structure and layout are built using HTML for seamless interaction. To top it off, the design is enhanced with CSS, giving the calculator a sleek and visually appealing interface. 
@@ -93,7 +95,7 @@
                             </div>
             </section>
 
-            <section class="contactme">
+            <section id="contactme">
                 <div>
                 <h2>Contact me on:</h2><br>
                 </div>
@@ -101,5 +103,6 @@
                 <a href="https://wa.me/254795416483"><img src="images/WhatsApp2.svg.webp" alt="whatapp" class="twitter"></a>
                 <a href="mailto:ha.wakhule@gmail.com"><img src="images/Gmail_Logo.png" alt="gmail logo" class="gmail"></a>
             </section>
+            <script src="index.js"></script>
 </body>
 </html>

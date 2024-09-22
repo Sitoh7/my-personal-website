@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 body{
     background: linear-gradient(to bottom,  rgb(36, 35, 35), rgb(10, 10, 70), rgb(3, 3, 150));
@@ -7,12 +14,34 @@ body{
 }
 
 nav{
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    top: 0;
+    z-index: 100;
+
+}
+
+nav ul {
+    list-style: none;
     display: flex;
-  justify-content: space-evenly;  
-  list-style: none;
-  padding: 0;
-  margin: 0 20px;
-  font-weight: bold;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
 }
 
  a {
@@ -21,7 +50,9 @@ nav{
     font-size: 1.3em;
 }
 
-.content1{
+
+
+#content{
     position: relative;
           display: flex;
           justify-content: space-around;
@@ -49,7 +80,7 @@ nav{
     border-radius: 40px;
 }
 
-.aboutMe{
+#aboutMe{
     text-align: center;
     width: 500px;
     margin: 0 auto;
@@ -69,19 +100,20 @@ nav{
     text-align: center;
 }
 
-.skills div { float: left;
+#skills div { float: left;
                 text-align: center;
                 width: 33%;
                 background-color: rgb(31, 29, 29);
                 border: solid white 2px;
-                border-radius: 20px;}
+                border-radius: 20px;
+                font-weight: bold;}
 
 
 .ph{
     text-align: center;
 }
 
-.projects div{
+#projects div{
     float: left;
     text-align: center;
     width: 32%;
@@ -92,7 +124,7 @@ nav{
     
 }
 
-.projects h3{
+#projects h3{
     border: 2px solid white;
     border-radius: 20px;
     width: 90%;
@@ -102,13 +134,13 @@ nav{
     position: relative;
     top: 2px;
 }
-.contactme{
+#contactme{
     text-align: center;
 
   
 }
 
-.contactme div{
+#contactme div{
     margin: auto;
     text-align: center;
 }
